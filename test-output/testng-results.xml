@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-08T11:24:37 IST" name="Suite" finished-at="2024-02-08T11:27:52 IST" duration-ms="195630">
+    <groups>
+      <group name="regression">
+        <method signature="TC002_SearchandFind.searchCarWash()[pri:3, instance:testCases.TC004_GymCategory@235ecd9f]" name="searchCarWash" class="testCases.TC002_SearchandFind"/>
+        <method signature="TC002_SearchandFind.carWashDetails()[pri:4, instance:testCases.TC004_GymCategory@235ecd9f]" name="carWashDetails" class="testCases.TC002_SearchandFind"/>
+        <method signature="TC003_FreeListing.clickfreelisting()[pri:5, instance:testCases.TC004_GymCategory@235ecd9f]" name="clickfreelisting" class="testCases.TC003_FreeListing"/>
+        <method signature="TC003_FreeListing.freeListingLogin()[pri:6, instance:testCases.TC004_GymCategory@235ecd9f]" name="freeListingLogin" class="testCases.TC003_FreeListing"/>
+        <method signature="TC004_GymCategory.clickGym()[pri:7, instance:testCases.TC004_GymCategory@235ecd9f]" name="clickGym" class="testCases.TC004_GymCategory"/>
+        <method signature="TC004_GymCategory.displayCategories()[pri:8, instance:testCases.TC004_GymCategory@235ecd9f]" name="displayCategories" class="testCases.TC004_GymCategory"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="TC001_Location.locationCountry()[pri:1, instance:testCases.TC004_GymCategory@235ecd9f]" name="locationCountry" class="testCases.TC001_Location"/>
+        <method signature="TC001_Location.locationCity()[pri:2, instance:testCases.TC004_GymCategory@235ecd9f]" name="locationCity" class="testCases.TC001_Location"/>
+      </group> <!-- sanity -->
+      <group name="master">
+        <method signature="TC001_Location.locationCountry()[pri:1, instance:testCases.TC004_GymCategory@235ecd9f]" name="locationCountry" class="testCases.TC001_Location"/>
+        <method signature="TC001_Location.locationCity()[pri:2, instance:testCases.TC004_GymCategory@235ecd9f]" name="locationCity" class="testCases.TC001_Location"/>
+        <method signature="TC002_SearchandFind.searchCarWash()[pri:3, instance:testCases.TC004_GymCategory@235ecd9f]" name="searchCarWash" class="testCases.TC002_SearchandFind"/>
+        <method signature="TC002_SearchandFind.carWashDetails()[pri:4, instance:testCases.TC004_GymCategory@235ecd9f]" name="carWashDetails" class="testCases.TC002_SearchandFind"/>
+        <method signature="TC003_FreeListing.clickfreelisting()[pri:5, instance:testCases.TC004_GymCategory@235ecd9f]" name="clickfreelisting" class="testCases.TC003_FreeListing"/>
+        <method signature="TC003_FreeListing.freeListingLogin()[pri:6, instance:testCases.TC004_GymCategory@235ecd9f]" name="freeListingLogin" class="testCases.TC003_FreeListing"/>
+        <method signature="TC004_GymCategory.clickGym()[pri:7, instance:testCases.TC004_GymCategory@235ecd9f]" name="clickGym" class="testCases.TC004_GymCategory"/>
+        <method signature="TC004_GymCategory.displayCategories()[pri:8, instance:testCases.TC004_GymCategory@235ecd9f]" name="displayCategories" class="testCases.TC004_GymCategory"/>
+      </group> <!-- master -->
+    </groups>
+    <test started-at="2024-02-08T11:24:37 IST" name="test" finished-at="2024-02-08T11:27:52 IST" duration-ms="195630">
+      <class name="testCases.TC004_GymCategory">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC004_GymCategory@235ecd9f]" started-at="2024-02-08T11:24:38 IST" name="setup" finished-at="2024-02-08T11:24:59 IST" duration-ms="20807" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[windows]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="locationCountry()[pri:1, instance:testCases.TC004_GymCategory@235ecd9f]" started-at="2024-02-08T11:24:59 IST" name="locationCountry" finished-at="2024-02-08T11:25:30 IST" duration-ms="31432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationCountry -->
+        <test-method signature="locationCity()[pri:2, instance:testCases.TC004_GymCategory@235ecd9f]" started-at="2024-02-08T11:25:32 IST" name="locationCity" finished-at="2024-02-08T11:25:52 IST" duration-ms="20092" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- locationCity -->
+        <test-method signature="searchCarWash()[pri:3, instance:testCases.TC004_GymCategory@235ecd9f]" started-at="2024-02-08T11:25:54 IST" name="searchCarWash" finished-at="2024-02-08T11:26:16 IST" duration-ms="22036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchCarWash -->
+        <test-method signature="carWashDetails()[pri:4, instance:testCases.TC004_GymCategory@235ecd9f]" started-at="2024-02-08T11:26:16 IST" name="carWashDetails" finished-at="2024-02-08T11:27:29 IST" duration-ms="72784" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- carWashDetails -->
+        <test-method signature="clickfreelisting()[pri:5, instance:testCases.TC004_GymCategory@235ecd9f]" started-at="2024-02-08T11:27:30 IST" name="clickfreelisting" finished-at="2024-02-08T11:27:33 IST" duration-ms="2658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickfreelisting -->
+        <test-method signature="freeListingLogin()[pri:6, instance:testCases.TC004_GymCategory@235ecd9f]" started-at="2024-02-08T11:27:33 IST" name="freeListingLogin" finished-at="2024-02-08T11:27:42 IST" duration-ms="8589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- freeListingLogin -->
+        <test-method signature="clickGym()[pri:7, instance:testCases.TC004_GymCategory@235ecd9f]" started-at="2024-02-08T11:27:42 IST" name="clickGym" finished-at="2024-02-08T11:27:43 IST" duration-ms="1685" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickGym -->
+        <test-method signature="displayCategories()[pri:8, instance:testCases.TC004_GymCategory@235ecd9f]" started-at="2024-02-08T11:27:44 IST" name="displayCategories" finished-at="2024-02-08T11:27:50 IST" duration-ms="6545" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayCategories -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC004_GymCategory@235ecd9f]" started-at="2024-02-08T11:27:51 IST" name="tearDown" finished-at="2024-02-08T11:27:52 IST" duration-ms="1772" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.TC004_GymCategory -->
+    </test> <!-- test -->
+  </suite> <!-- Suite -->
+</testng-results>
