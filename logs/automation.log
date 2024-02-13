@@ -2,3 +2,10 @@
 10:06:11.596 [main] INFO  testCases.TC004_GymCategory - --//Shared and Reported//--
 10:06:37.098 [main] INFO  testCases.TC004_GymCategory - --//Free Listing Done//--
 10:06:50.981 [main] INFO  testCases.TC004_GymCategory - --//Gym Sub Categories taken//--
+10:37:45.633 [main] INFO  testCases.TC004_GymCategory - --//Country chosen and title verified//--
+10:37:57.097 [main] INFO  testCases.TC004_GymCategory - --//City chosen//--
+10:38:25.586 [main] INFO  testCases.TC004_GymCategory - --//Top 5 car wash services displyed//--
+10:38:32.506 [main] INFO  testCases.TC004_GymCategory - --//Review given//--
+10:39:34.338 [main] INFO  testCases.TC004_GymCategory - --//Shared and Reported//--
+10:39:43.813 [main] INFO  testCases.TC004_GymCategory - --//Free Listing Done//--
+10:39:57.000 [main] INFO  testCases.TC004_GymCategory - --//Gym Sub Categories taken//--
