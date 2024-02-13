@@ -11,8 +11,8 @@
       <class name="testCases.TC004_GymCategory">
         <methods>
           <include name="tearDown"/>
-          <include name="clickfreelisting"/>
           <include name="carWashDetails"/>
+          <include name="clickfreelisting"/>
           <include name="freeListingLogin"/>
           <include name="setup"/>
           <include name="displayCategories"/>
